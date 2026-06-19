@@ -4,6 +4,16 @@
 
 內容以 **原料 → 製程 → 成品 → 品質 → 採購重點** 的脈絡編排，並用 [open-slide](https://github.com/1weiho/open-slide) 製作（每一頁都是一個 React 元件，渲染在固定的 1920×1080 畫布）。
 
+## 🔗 線上預覽
+
+**https://bryanhsiao.github.io/bubble-wrap-process-slides/**
+
+開啟後即為展示首頁，點任一封面進入瀏覽（方向鍵翻頁、`F` 全螢幕）。三種風格：
+
+- [鮮明編輯風（定案）](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-editorial)
+- [明亮簡潔風](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-clean)
+- [工業藍圖風](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-blueprint)
+
 > 想要可直接編輯的 PowerPoint？請見下方 [可編輯 PowerPoint](#可編輯-powerpoint)。
 
 ---
@@ -66,7 +76,6 @@ slides/
   bubble-wrap-editorial/   # 鮮明編輯風（定案）
   bubble-wrap-clean/       # 明亮簡潔風
   bubble-wrap-blueprint/   # 工業藍圖風
-  getting-started/         # open-slide 範例
 themes/                    # open-slide 內建主題範例
 assets/gpt-images/         # 製程／材料照片
 pptx-build/                # 產生可編輯 PowerPoint 的腳本（pptxgenjs）
