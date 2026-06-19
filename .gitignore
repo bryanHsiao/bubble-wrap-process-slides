@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+
+# 開發產物
+dev.log
+
+# PPTX 建置工具的相依與渲染暫存（PPTX 本身改以 GitHub Release 發佈）
+pptx-build/node_modules
+pptx-build/render
+*.pptx
+
+# 圖片挑選用的縮圖與來源網址清單
+assets/gpt-images/thumbs
+assets/gpt-images/urls.txt
