@@ -2,17 +2,17 @@
 
 一份「**氣泡布（Bubble Wrap）製程介紹**」簡報專案，從採購人員的視角，帶非製造背景的聽眾在 10～15 分鐘內快速理解氣泡布如何製造。
 
-內容以 **原料 → 製程 → 成品 → 品質 → 採購重點** 的脈絡編排，並用 [open-slide](https://github.com/1weiho/open-slide) 製作（每一頁都是一個 React 元件，渲染在固定的 1920×1080 畫布）。
+內容以 **原料 → 製程 → 成品 → 品質 → 採購重點** 的脈絡編排，並用 <a href="https://github.com/1weiho/open-slide" target="_blank" rel="noopener noreferrer">open-slide</a> 製作（每一頁都是一個 React 元件，渲染在固定的 1920×1080 畫布）。
 
 ## 🔗 線上預覽
 
-**https://bryanhsiao.github.io/bubble-wrap-process-slides/**
+**<a href="https://bryanhsiao.github.io/bubble-wrap-process-slides/" target="_blank" rel="noopener noreferrer">https://bryanhsiao.github.io/bubble-wrap-process-slides/</a>**
 
 開啟後即為展示首頁，點任一封面進入瀏覽（方向鍵翻頁、`F` 全螢幕）。三種風格：
 
-- [鮮明編輯風（定案）](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-editorial)
-- [明亮簡潔風](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-clean)
-- [工業藍圖風](https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-blueprint)
+- <a href="https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-editorial" target="_blank" rel="noopener noreferrer">鮮明編輯風（定案）</a>
+- <a href="https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-clean" target="_blank" rel="noopener noreferrer">明亮簡潔風</a>
+- <a href="https://bryanhsiao.github.io/bubble-wrap-process-slides/s/bubble-wrap-blueprint" target="_blank" rel="noopener noreferrer">工業藍圖風</a>
 
 > 想要可直接編輯的 PowerPoint？請見下方 [可編輯 PowerPoint](#可編輯-powerpoint)。
 
@@ -52,7 +52,7 @@
 
 ## 本機預覽
 
-需要 Node.js 與 [pnpm](https://pnpm.io/)。
+需要 Node.js 與 <a href="https://pnpm.io/" target="_blank" rel="noopener noreferrer">pnpm</a>。
 
 ```bash
 pnpm install
@@ -88,10 +88,10 @@ pptx-build/                # 產生可編輯 PowerPoint 的腳本（pptxgenjs）
 ## 可編輯 PowerPoint
 
 open-slide 的輸出為靜態 HTML／PDF（圖片型），**無法直接編輯**。因此另外用
-[pptxgenjs](https://github.com/gitbrent/PptxGenJS) 將定案的「鮮明編輯風」重建為一份
+<a href="https://github.com/gitbrent/PptxGenJS" target="_blank" rel="noopener noreferrer">pptxgenjs</a> 將定案的「鮮明編輯風」重建為一份
 **原生、可編輯的 `.pptx`**（文字、形狀、圖片皆可在 PowerPoint 中直接修改）。
 
-- 下載：請見本專案的 **[Releases](../../releases)** 頁面。
+- 下載：請見本專案的 **<a href="../../releases" target="_blank" rel="noopener noreferrer">Releases</a>** 頁面。
 - 重新產生：
 
   ```bash
@@ -104,5 +104,5 @@ open-slide 的輸出為靜態 HTML／PDF（圖片型），**無法直接編輯**
 
 ## 致謝與說明
 
-- 簡報框架：[open-slide](https://github.com/1weiho/open-slide)（作者 1weiho）
+- 簡報框架：<a href="https://github.com/1weiho/open-slide" target="_blank" rel="noopener noreferrer">open-slide</a>（作者 1weiho）
 - 簡報內容大綱由 ChatGPT 協助發想，照片為其檢索之網路素材，僅供本簡報示意之用。
